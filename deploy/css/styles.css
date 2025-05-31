@@ -380,15 +380,6 @@ textarea {
   background-color: #fff;
   color: #111;
 }
-@media (max-width: 768px) {
-  .home {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    text-align: center;
-  }
-}
 
 .intro {
   -webkit-box-flex: 1;
@@ -420,6 +411,16 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media (min-width: 768px) {
+  .logo {
+    width: 250px;
+  }
+}
+@media (min-width: 1200px) {
+  .logo {
+    width: 300px;
+  }
 }
 .logo img {
   width: 250px;

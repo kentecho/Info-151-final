@@ -12,13 +12,32 @@
   background-color: #fff;
   color: #111;
 
-  @media (max-width: 768px) {
-    flex-direction: column;
-    text-align: center;
-  }
+  // @media (max-width: 768px) {
+  //   flex-direction: column;
+  //   text-align: center;
+  // }
+
+  // @include helpers.md{
+  //   padding: 0 8vw;
+  // }
 }
 
 .intro {
+
+  //   @include helpers.md{
+  //   padding: 0 8vw;
+  //   margin: 0 auto;
+  // }
+  //   @include helpers.lg{
+  //   padding: 100px;
+  //   margin: 0 auto;
+  // }
+  // @include helpers.xl{
+  //   padding: 0 8vw;
+  //   margin: 0 auto;
+  // }
+
+
   flex: 1;
   padding-right: 2rem;
 
@@ -41,6 +60,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @include helpers.md{
+    width: 250px;
+    // margin: 0 auto;
+  }
+
+  @include helpers.xl{
+    width: 300px;
+    // padding: 0 8vw;
+    // margin: 0 auto;
+  }
+
+
 
   img {
     width: 250px; // ⬅️ Increased from 150px
