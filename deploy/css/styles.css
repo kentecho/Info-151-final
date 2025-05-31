@@ -377,7 +377,7 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   padding: 2rem;
-  background-color: #fff;
+  background-color: #e6edf3;
   color: #111;
 }
 
@@ -424,6 +424,7 @@ textarea {
   width: 250px;
   height: auto;
   max-width: 100%;
+  border: 2px solid white;
   border-radius: 8px;
   -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
           box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -446,7 +447,7 @@ section {
   max-width: 900px;
   margin: auto;
   color: #111;
-  background-color: #fff;
+  background-color: #e6edf3;
 }
 
 h1 {
@@ -615,6 +616,7 @@ figcaption {
   margin: 0 auto;
   padding: 2rem;
   font-family: Arial, sans-serif;
+  background-color: #e6edf3;
 }
 
 h1 {
@@ -653,9 +655,9 @@ a:hover {
 ============= */
 .associations-section {
   font-family: Arial, sans-serif;
-  background-color: #fff;
+  background-color: #e6edf3;
   color: #111;
-  padding: 1.5rem;
+  padding: 2rem;
   max-width: 900px;
   margin: auto;
 }
