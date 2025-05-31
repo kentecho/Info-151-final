@@ -1,0 +1,75 @@
+/* =============
+    Contact
+============= */
+@use "../helpers";
+
+
+#contact{
+    .contact-page {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+        font-family: Arial, sans-serif;
+        color: #333;
+        background-color: #f8f8f8;
+    }
+
+    h1 {
+        font-size: 2rem;
+        color: #d35400; /* bold orange */
+        margin-bottom: 1rem;
+    }
+
+    p {
+        margin-bottom: 1.2rem;
+        line-height: 1.5;
+    }
+
+    .info-box {
+        background-color: #ffffff;
+        border-left: 5px solid #d35400;
+        padding: 1rem 1.5rem;
+        margin-bottom: 1.5rem;
+        border-radius: 5px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    a {
+        color: #d35400;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:hover {
+        color: #a84300;
+        text-decoration: underline;
+    }
+
+    .label {
+        color: #666;
+        font-weight: bold;
+        margin-bottom: 0.3rem;
+        display: block;
+    }
+        
+    .linkedin-button {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.6rem 1rem;
+        background-color: #0a66c2; /* LinkedIn Blue */
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 6px;
+        transition: background-color 0.3s ease;
+    }
+
+    .linkedin-button:hover {
+    background-color: #004182;
+    }
+
+    .linkedin-button svg {
+    fill: white;
+    }
+}

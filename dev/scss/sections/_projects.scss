@@ -1,0 +1,42 @@
+/* =============
+    Projects
+============= */
+@use "../helpers";
+
+  .projects {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #d35400;
+  }
+
+  ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+
+  li {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+
+  a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .note {
+    font-style: italic;
+    color: #555;
+    margin-left: 0.5rem;
+  }

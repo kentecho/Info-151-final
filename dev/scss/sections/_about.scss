@@ -1,0 +1,92 @@
+/* =============
+    About
+============= */
+@use "../helpers";
+
+  section {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+    color: #111;
+    background-color: #fff;
+  }
+
+  h1 {
+    font-size: 2rem;
+    color: #d35400;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    color: #d35400;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #d35400;
+    padding-bottom: 0.25rem;
+  }
+
+  p {
+    line-height: 1.6;
+    margin: 1rem 0;
+    color: #333;
+  }
+
+  a {
+    color: #d35400;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 2rem;
+  }
+
+  img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  figure {
+    text-align: center;
+    margin: 1.5rem 0;
+  }
+
+  figcaption {
+    font-size: 0.95rem;
+    color: #555;
+    margin-top: 0.5rem;
+  }
+
+  @media (max-width: 600px) {
+    section {
+      padding: 1rem;
+    }
+
+    h1 {
+      font-size: 1.7rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
