@@ -400,8 +400,6 @@ textarea {
 }
 
 .logo {
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
