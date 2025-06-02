@@ -8,9 +8,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 999;
-    /* Keeps it above other elements */
     background-color: #333;
-    /* Needed to avoid transparency */
 }
 
 .menu-toggle {
@@ -52,13 +50,12 @@ header {
     }
 }
 
-/* Basic setup */
 .menu-toggle {
   width: 30px;
   height: 24px;
   position: relative;
   cursor: pointer;
-  display: none; /* shows only on mobile */
+  display: none; 
   z-index: 1000;
 }
 
@@ -81,7 +78,6 @@ header {
   top: 20px;
 }
 
-/* When open, animate to X */
 .menu-toggle.open span:nth-child(1) {
   transform: rotate(45deg);
   top: 10px;
@@ -94,7 +90,6 @@ header {
   top: 10px;
 }
 
-/* Mobile nav toggle */
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
@@ -116,4 +111,3 @@ header {
   }
 }
 
-/* Base styles */
