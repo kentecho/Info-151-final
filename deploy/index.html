@@ -6,10 +6,36 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="css/styles.css">
         <title>Info-151-final</title>
-    </head>
-<body>
+    </head><header>
+    <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav class="nav-menu" id="nav-menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#projects">Coursework and Projects</a>
+        <a href="#associations">Associations</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <script>
+        const toggle = document.getElementById('menu-toggle');
+        const nav = document.getElementById('nav-menu');
 
-<section class="home">
+        toggle.addEventListener('click', () => {
+            toggle.classList.toggle('open');
+            nav.classList.toggle('show');
+        });
+    </script>
+</header><body>
+
+<section>
+    <h1 class="me">Kenneth Roman</h1>
+</section>
+
+<section id="home" class="home">
     <!-- purpose statement,pro philosophy statement -->
     <section class="intro">
 
@@ -35,7 +61,7 @@
     <aside class="logo">
         <img src="\deploy\img\home\niwc_logo.png" alt="niwc pacific logo">
     </aside>
-</section><section class="about">
+</section><section id="about" class="about">
     <h1>About Me</h1>
     <p>I’m currently studying Computing and Informatics at Drexel University and working in cybersecurity. Outside of all that, I’m really into <a href="https://store.steampowered.com/app/266840/Age_of_Mythology_Extended_Edition/" target="_blank">strategy games,</a> <a href="https://www.nps.gov/appa/index.htm" target="_blank">hiking,</a> and making traditional woodblock prints. I enjoy spending time with my family, trying out new places to eat, and finding ways to be creative whenever I can. I’m curious by nature, always looking to learn something new, and I try to keep things real, whether I’m solving a complex problem or just enjoying a quiet moment.</p>
     <h2>My Hobbies</h2>
@@ -57,7 +83,7 @@
     </section>
 </section><section>
 
-  <div class="resume">
+  <div id="resume" class="resume">
     <h1>Kenneth Roman</h1>
     <p>Cell: (XXX) XXX-XXXX | <a href="mailto:kr3338@drexel.edu">kr3338@drexel.edu</a></p>
     <p>Active DoD TS/SCI 2027</p>
@@ -144,7 +170,7 @@
   <a href="\deploy\data\resume.pdf" download="Roman_Kenneth_Resume.pdf" class="download-button">
     <button>Download Resume PDF</button>
   </a>
-</section><section class="projects">
+</section><section id="projects" class="projects">
     <h1>Coursework and Projects</h1>
 
     <p>Below is a list of course work I've completed so far, along with example work that highlights what I’ve learned:
@@ -179,7 +205,7 @@
             </ul>
         </li>
     </ul>
-</section><section class="associations-section">
+</section><section id="associations" class="associations-section">
     <h1>Professional Associations</h1>
     <p>Here are some of the organizations I’m involved in. Each one reflects my commitment to service, growth, and
         community.</p>
@@ -219,7 +245,7 @@
             </a>
         </li>
     </ul>
-</section><section class="contact-page">
+</section><section id="contact" class="contact-page">
     <h1>Contact Me</h1>
     <p>If you'd like to get in touch, feel free to reach out by email or connect with me on LinkedIn. I'm always
         open to new opportunities, collaborations, and conversations.</p>
