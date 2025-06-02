@@ -3,21 +3,7 @@
 ============= */
 @use "../helpers";
 
-  .projects {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 2rem;
-    font-family: Arial, sans-serif;
-    background-color: #e6edf3;
-  }
-
-  h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: #d35400;
-    border-bottom: 2px solid #d35400;
-  }
-
+.projects {
   ul {
     list-style-type: disc;
     padding-left: 1.5rem;
@@ -28,17 +14,9 @@
     line-height: 1.5;
   }
 
-  a {
-    color: #1e90ff;
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-
   .note {
     font-style: italic;
     color: #555;
     margin-left: 0.5rem;
   }
+}

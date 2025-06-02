@@ -1,0 +1,35 @@
+/* =============
+    body
+============= */
+
+section {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    color: #111;
+    background-color: #e6edf3;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #d35400;
+    border-bottom: 2px solid #d35400;
+}
+
+p {
+    line-height: 1.6;
+    margin: 1rem 0;
+    color: #333;
+}
+
+a {
+    color: #d35400;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
